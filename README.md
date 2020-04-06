@@ -11,10 +11,10 @@ This repository contains the datasets and code needed to reproduce experiments f
 + PyTorch
 
 Setup:
-1) download all the necessary datasets from data folder (everything except for csvs); \\
-2) run .ipynbs on local machine \ colab, change data PATHs if needed:\\
-Cryptoportfolio_management - main file, contains neural network and portfolio construction experiments;\\
-Model_Best_Stock - contains best stock model,\\
+1) download all the necessary datasets from data folder (everything except for csvs); </br>
+2) run .ipynbs on local machine \ colab, change data PATHs if needed: </br>
+Cryptoportfolio_management - main file, contains neural network and portfolio construction experiments;</br>
+Model_Best_Stock - contains best stock model;</br>
 Get_A_matrix_function - graph generation (there exists a pre-generated graph Amatrix for use already).
 
 # Results
