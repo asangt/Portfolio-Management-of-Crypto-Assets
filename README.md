@@ -11,11 +11,11 @@ This repository contains the datasets and code needed to reproduce experiments f
 + PyTorch
 
 Setup:
-1) download all the necessary datasets from data folder (everything except for csvs);
-2) run .ipynbs on local machine \ colab, change data PATHs if needed:
-Cryptoportfolio_management - main file, contains neural network and portfolio construction experiments;
-Model_Best_Stock - contains best stock model,
-Get_A_matrix_function - graph generation (there exists a pre-generated graph Amatrix for use already)
+1) download all the necessary datasets from data folder (everything except for csvs); \\
+2) run .ipynbs on local machine \ colab, change data PATHs if needed:\\
+Cryptoportfolio_management - main file, contains neural network and portfolio construction experiments;\\
+Model_Best_Stock - contains best stock model,\\
+Get_A_matrix_function - graph generation (there exists a pre-generated graph Amatrix for use already).
 
 # Results
 In this project, we proposed a meethod of cryptocurrency portfolio optimization using long-short term memory (LSTM) recurrent neural network coupled with temporal graph embedding ("Temporal Relational Ranking" Feng et al., 2018) to produce return forecasts for the crypto tokens. Later, these forecasts were used in mean variance portfolio (risky portfolio) optimization and Black-Litterman model to produce the portfolio weights.
