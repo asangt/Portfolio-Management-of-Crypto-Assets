@@ -17,6 +17,11 @@ Cryptoportfolio_management - main file, contains neural network and portfolio co
 Model_Best_Stock - contains best stock model;</br>
 Get_A_matrix_function - graph generation (there exists a pre-generated graph Amatrix for use already).
 
+# Content
+1) directory "/data" contains datasets used in this projects;
+2) directory "/model" contains trained lstm weights (load as state dict);
+3) directory "/image" contains the image used in this readme.
+
 # Results
 In this project, we proposed a meethod of cryptocurrency portfolio optimization using long-short term memory (LSTM) recurrent neural network coupled with temporal graph embedding ("Temporal Relational Ranking" Feng et al., 2018) to produce return forecasts for the crypto tokens. Later, these forecasts were used in mean variance portfolio (risky portfolio) optimization and Black-Litterman model to produce the portfolio weights.
 
