@@ -7,7 +7,12 @@ This repository contains the datasets and code needed to reproduce experiments f
 
 + Python
 + Numpy, pandas, scipy
++ Matplotlib
 + PyTorch
 
 # Results
+In this project, we proposed a meethod of cryptocurrency portfolio optimization using long-short term memory (LSTM) recurrent neural network coupled with temporal graph embedding ("Temporal Relational Ranking" Feng et al., 2018) to produce return forecasts for the crypto tokens. Later, these forecasts were used in mean variance portfolio (risky portfolio) optimization and Black-Litterman model to produce the portfolio weights.
+
 ![](/image/index.png)
+
+You can see the resulting portfolios in the picture above - risk-based portfolio optimization and Black-Litterman optimization based on neural network returns outperform other methods, including the Markowitz mean variance portfolio model.
